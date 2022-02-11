@@ -1,2 +1,2 @@
-# github.io
-My web-pages
+# arabic
+Introductory course to arabic by Asma Othman (asmazottman@gmail.com).
