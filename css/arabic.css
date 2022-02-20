@@ -8,8 +8,11 @@ table.no-border {
     border: none
 }
 
-div {
+div.cell-text {
     font-family: Arial, Helvetica, sans-serif; 
+    font-size: xx-large;
+    color: blue;
+    
 }
 
 h1, h2, h3 {
