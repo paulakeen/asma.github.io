@@ -26,3 +26,16 @@ p {
 a:link {
     text-decoration: none;
 }
+p.arabic-text {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: x-large;
+    color: blue;
+    
+}
+
+pre.arabic-text {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: x-large;
+    color: blue;
+    
+}

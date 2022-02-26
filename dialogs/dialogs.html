@@ -1,39 +1,106 @@
 <html>
     <head>
         <link rel="stylesheet" href="../css/arabic.css"/>
+        <script type="text/javascript" src="../js/arabic.js"></script>
         <title>Dialogs</title>
     </head>
     <body>
         <h1 align="center">Dialogs</h1>
         <h3 align="center">Materials prepared by <b><i>Asma Othman</i></b></h3>
         <p align="center">(<a href="mailto:asmazottman@gmail.com">asmazottman@gmail.com</a>)</p>
-        
         <table align="center">
             <!-- Group 1 -->
             <tr>
-                <td  align="center"><img src="./img/salutation-2A.png" title=""></td>
-                <td  align="center"><img src="./img/salutation-1A.png" title=""></td>
+                <!-- td  align="center"><img id="s2" src="./img/salutation-2A.png" title=""></td -->
+                <td align="center">
+                    <a href="#" onclick="showStuff('t2', 'a2');">
+                        <img id="s1" src="./img/salutation-2A.png" title="">
+                    </a>
+                    <div id="t2" style="display: none;">
+                        <p><pre class="arabic-text">السَّلَامُ عَلَيْكُمْ   -   عَلَيْكُمْ لسَّلَامُ</pre></p>
+                        <audio id="a2" src="./audio/السَّلَامُ عَلَيْكُمْ.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="#" onclick="showStuff('t1', 'a1');">
+                        <img id="s1" src="./img/salutation-1A.png" title="">
+                    </a>
+                    <div id="t1" style="display: none;">
+                        <p><pre class="arabic-text">مرحباً  -  أَحْلاً</pre></p>
+                        <audio id="a1" src="./audio/مرحباً.mp3"/>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td  align="center"><img src="./img/salutation-2B.png" title=""></td>
-                <td  align="center"><img src="./img/salutation-1B.png" title=""></td>
+                <td align="center">
+                    <a href="#" onclick="showStuff('t4', 'a4');">
+                        <img src="./img/salutation-2B.png" title="">
+                    </a>
+                    <div id="t4" style="display: none;">
+                        <p><pre class="arabic-text"></pre></p>
+                        <audio id="a4" src="./audio/bye.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="#" onclick="showStuff('t3', 'a3');">
+                        <img src="./img/salutation-1B.png" title="">
+                    </a>
+                    <div id="t3" style="display: none;">
+                        <p><pre class="arabic-text"></pre></p>
+                        <audio id="a3" src="./audio/how-are-you.mp3"/>
+                    </div>
+                </td>                
             </tr>
             <tr>
-                <td colspan="3" align="center"><audio src="./audio/d1.m4a" controls/></td>            
+                <td colspan="3" align="center"><audio id="d1" src="./audio/d1.m4a" controls/></td>            
             </tr>
-            <!-- Group 2-->
+        </table>
+        <table align="center">
             <tr>
-                <td  align="center"><img src="./img/salutation-3B.png" title=""></td>
-                <td  align="center"><img src="./img/salutation-3A.png" title=""></td>
+                <td align="center">
+                    <a href="#" onclick="showStuff('t9', 'a9');">
+                        <img src="./img/salutation-3B.png" title="">
+                    </a>
+                    <div id="t9" style="display: none;">
+                        <p><pre class="arabic-text"></pre></p>
+                        <audio id="a9" src="./audio/by3.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="#" onclick="showStuff('t8', 'a8');">
+                        <img src="./img/salutation-3A.png" title="">
+                    </a>
+                    <div id="t8" style="display: none;">
+                        <p><pre class="arabic-text"></pre></p>
+                        <audio id="a8" src="./audio/how-are-you-2.mp3"/>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td  align="center"><img src="./img/salutation-4B.png" title=""></td>
-                <td  align="center"><img src="./img/salutation-4A.png" title=""></td>
+                <td align="center">
+                    <a href="javascript:void(0);" onclick="showStuff('t11', 'a11');">
+                        <img src="./img/salutation-4B.png" title="">
+                    </a>
+                    <div id="t11" style="display: none;">
+                        <p><pre class="arabic-text">TEXT</pre></p>
+                        <audio id="a11" src="./audio/my-name-is-Helena.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);" onclick="showStuff('t10', 'a10');">
+                        <img src="./img/salutation-4A.png" title="">
+                    </a>
+                    <div id="t10" style="display: none;">
+                        <p><pre class="arabic-text">TEXT</pre></p>
+                        <audio id="a10" src="./audio/what-is-your-name.mp3"/>
+                    </div>
+                </td>
             </tr>
             <tr>
                 <td colspan="3" align="center"><audio src="./audio/d2.m4a" controls/></td>            
             </tr>
-            <!-- Group 3-->
+        </table>
+        <table align="center">
             <tr>
                 <td  align="center"><img src="./img/situation-4B.png" title=""></td>
                 <td  align="center"><img src="./img/situation-4A.png" title=""></td>
@@ -45,6 +112,29 @@
             <tr>
                 <td colspan="3" align="center"><audio src="./audio/d3.m4a" controls/></td>            
             </tr>
+            <tr>
+                <td  align="center"><img src="./img/situation-4B.png" title=""></td>
+                <td  align="center"><img src="./img/situation-4A.png" title=""></td>
+            </tr>
+            <tr>
+                <td  align="center"><img src="./img/situation-4D.png" title=""></td>
+                <td  align="center"><img src="./img/situation-4C.png" title=""></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><audio src="./audio/d3.m4a" controls/></td>            
+            </tr>
+            <tr>
+                <td  align="center"><img src="./img/i-want-a-cup-of-tea.png" title=""></td>
+                <td  align="center"><img src="./img/thank-you-for-the-gift.png" title=""></td>
+            </tr>
+            <tr>
+                <td  align="center"><img src="./img/what-is-he-doing.png" title=""></td>
+                <td  align="center"><img src="./img/what-are-you-doing.png" title=""></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><audio src="./audio/d6-thank-you.m4a" controls/></td>            
+            </tr>
         </table>
+        -->
     </body>
 </html>
