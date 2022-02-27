@@ -13,3 +13,8 @@ function showStuff(text, audio)
                     a.pause()
                 }
             }
+function play(audio)
+{
+    let a = document.getElementById(audio);
+    a.play()
+}
