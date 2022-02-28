@@ -1,23 +1,72 @@
 <html>
     <head>
         <link rel="stylesheet" href="../css/arabic.css"/>
+        <script type="text/javascript" src="../js/arabic.js"></script>
         <title>Prepositions</title>
     </head>
     <body>
         <h1 align="center">Prepositions</h1>
         <h3 align="center">Materials prepared by <b><i>Asma Othman</i></b></h3>
         <p align="center">(<a href="mailto:asmazottman@gmail.com">asmazottman@gmail.com</a>)</p>
-        
+        <!-- Fiche 1: Box, on, in, between, under, next to -->
         <table align="center">
             <tr>
-                <td  align="center"><img src="./img/in.png" title=""></td>
-                <td  align="center"><img src="./img/on.png"title=""></td>
-                <td  align="center"><img src="./img/box.png" title=""></td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t1', 'a1');">
+                        <img src="./img/in.png" title="">
+                    </a>
+                    <div id="t1" style="display: none;">
+                        <p><pre class="arabic-text">In</pre></p>
+                        <audio id="a1" src="./audio/in.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t2', 'a2');">
+                        <img src="./img/on.png" title="">
+                    </a>
+                    <div id="t2" style="display: none;">
+                        <p><pre class="arabic-text">On</pre></p>
+                        <audio id="a2" src="./audio/on.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t3', 'a3');">
+                        <img src="./img/box.png" title="">
+                    </a>
+                    <div id="t3" style="display: none;">
+                        <p><pre class="arabic-text">Box</pre></p>
+                        <audio id="a3" src="./audio/box.mp3"/>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td  align="center"><img src="./img/next-to.png" title=""></td>
-                <td  align="center"><img src="./img/under.png"title=""></td>
-                <td  align="center"><img src="./img/between.png" title=""></td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t4', 'a4');">
+                        <img src="./img/next-to.png" title="">
+                    </a>
+                    <div id="t4" style="display: none;">
+                        <p><pre class="arabic-text">Next to</pre></p>
+                        <audio id="a4" src="./audio/next-to.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t5', 'a5');">
+                        <img src="./img/under.png" title="">
+                    </a>
+                    <div id="t5" style="display: none;">
+                        <p><pre class="arabic-text">Under</pre></p>
+                        <audio id="a5" src="./audio/under.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t6', 'a6');">
+                        <img src="./img/between.png" title="">
+                    </a>
+                    <div id="t6" style="display: none;">
+                        <p><pre class="arabic-text">Between</pre></p>
+                        <audio id="a6" src="./audio/next-to.mp3"/>
+                    </div>
+                </td>
             </tr>
         </table>
         <table align="center">
@@ -27,13 +76,53 @@
         </table>
         <table align="center">
             <tr>
-                <td  align="center"><img src="./img/on-the-right.png" title=""></td>
-                <td  align="center"><img src="./img/in-front-of.png"title=""></td>
-                <td  align="center"><img src="./img/on-the-left.png" title=""></td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t7', 'a7');">
+                        <img src="./img/on-the-right.png" title="">
+                    </a>
+                    <div id="t7" style="display: none;">
+                        <p><pre class="arabic-text">On the right</pre></p>
+                        <audio id="a7" src="./audio/on-the-right.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t8', 'a8');">
+                        <img src="./img/in-front-of.png" title="">
+                    </a>
+                    <div id="t8" style="display: none;">
+                        <p><pre class="arabic-text">In front of</pre></p>
+                        <audio id="a8" src="./audio/in-front-of.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t9', 'a9');">
+                        <img src="./img/on-the-left.png" title="">
+                    </a>
+                    <div id="t9" style="display: none;">
+                        <p><pre class="arabic-text">On the left</pre></p>
+                        <audio id="a9" src="./audio/on-the-left.mp3"/>
+                    </div>
+                </td>
             </tr>
             <tr>
-                <td  align="center" colspan="2"><img src="./img/around.png" title=""></td>
-                <td  align="center"><img src="./img/behind.png"title=""></td>
+                <td align="center" colspan="2">
+                    <a href="javascript:void(0);"onclick="showStuff('t10', 'a10');">
+                        <img src="./img/around.png" title="">
+                    </a>
+                    <div id="t10" style="display: none;">
+                        <p><pre class="arabic-text">Around</pre></p>
+                        <audio id="a10" src="./audio/around.mp3"/>
+                    </div>
+                </td>
+                <td align="center">
+                    <a href="javascript:void(0);"onclick="showStuff('t11', 'a11');">
+                        <img src="./img/behind.png" title="">
+                    </a>
+                    <div id="t11" style="display: none;">
+                        <p><pre class="arabic-text">Behind</pre></p>
+                        <audio id="a11" src="./audio/behind.mp3"/>
+                    </div>
+                </td>
             </tr>
         </table>
         <table align="center">

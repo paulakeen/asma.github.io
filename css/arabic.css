@@ -7,6 +7,10 @@ table {
 table.no-border {
     border: none
 }
+td.border-blue {
+    border-collapse: collapse;
+    border: 1px solid blue;
+}
 
 div.cell-text {
     font-family: Arial, Helvetica, sans-serif; 
