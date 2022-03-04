@@ -16,6 +16,10 @@ td.border-orange {
     border-collapse: collapse;
     border: 1px solid orange;
 }
+tr.border-orange {
+    border-collapse: collapse;
+    border: 1px solid orange;
+}
 
 div.cell-text {
     font-family: Arial, Helvetica, sans-serif; 
